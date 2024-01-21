@@ -1,0 +1,606 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1705682571946999, "dur": 2261594, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682571948202, "dur": 43403, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682571991936, "dur": 2206704, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682574198659, "dur": 9932, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682591323977, "dur": 1661185, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682591324223, "dur": 9966, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682591334197, "dur": 48591, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682591382831, "dur": 1284742, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682592667574, "dur": 310095, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682592977672, "dur": 7487, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682592986728, "dur": 28, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1705682592458281, "dur": 187157, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592459242, "dur": 61554, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592624119, "dur": 5227, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592629352, "dur": 16070, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592630531, "dur": 13429, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592651758, "dur": 1377, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1705682592650898, "dur": 2302, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682592986860, "dur": 276, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1705682592716200, "dur":1707, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592717915, "dur":80, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1705682592718024, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1705682592718041, "dur":392, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1705682592718472, "dur":622, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592719094, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592943944, "dur":247, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944192, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944204, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944206, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944214, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944215, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944221, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944222, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944228, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944229, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944235, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944236, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944242, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944243, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944250, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944251, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944257, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944279, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592944299, "dur":2579, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1705682592719259, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592719259, "dur":4736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592723995, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1705682592724153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592736056, "dur":3919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1705682592740019, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1705682592740167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592740173, "dur":7084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1705682592747317, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592747378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592750501, "dur":13216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592763780, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592763832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592763841, "dur":17145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592781041, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592781134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592781147, "dur":15219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592796458, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592796869, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592796878, "dur":10153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592807096, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592807180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592807187, "dur":14172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592821412, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592821464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592821472, "dur":13024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592834542, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592834589, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592834599, "dur":9578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592844223, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592844408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592844417, "dur":6961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592851440, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592851489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592851501, "dur":5849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592857402, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592857659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592857667, "dur":4378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592862115, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592862249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592862257, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592865131, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592865395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592865402, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592868125, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592868168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592868175, "dur":5233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592873460, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592873632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592873643, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592876609, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592876656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592876662, "dur":5950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1705682592882665, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1705682592882726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592882819, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1705682592885866, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705682592885907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592885946, "dur":7076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705682592893078, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1705682592893132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592893146, "dur":6298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1705682592899497, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705682592899554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592899561, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1705682592903966, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1705682592904182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592904203, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1705682592905817, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1705682592906077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1705682592906086, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1705682592908172, "dur":35772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592719092, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592719096, "dur":4846, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592723949, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1705682592723950, "dur":354, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592724309, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1705682592724312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592736774, "dur":1538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1705682592738314, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1705682592738445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592738453, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1705682592740908, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592741023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592741030, "dur":63560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592804677, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592804767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592804822, "dur":11136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592816044, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592816090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592816098, "dur":10748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592826894, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592826937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592826944, "dur":11971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592838959, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592839017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592839023, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592844023, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592844091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592844107, "dur":7895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592852047, "dur":472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592852522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592852530, "dur":4988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592857563, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592857705, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592857711, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592861493, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592861626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592861634, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592864353, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592864400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592864408, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592868621, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592868664, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592868670, "dur":5477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592874197, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592874253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592874263, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592876482, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592876528, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592876534, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592880304, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592880370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592880380, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1705682592884863, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1705682592885060, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592885076, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1705682592890034, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1705682592890082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592890091, "dur":1533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1705682592891674, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1705682592891719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592891727, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1705682592898882, "dur":15732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1705682592914620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1705682592914633, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1705682592916737, "dur":27189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592718793, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592719138, "dur":4856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592723994, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1705682592724368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592736891, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1705682592739306, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1705682592739462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592739473, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1705682592743344, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592743506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592746961, "dur":16159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592763166, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592763223, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592763241, "dur":17927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592781254, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592781305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592781313, "dur":15208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592796584, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592796672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592796695, "dur":12155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592808893, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592808936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592808946, "dur":17351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592826340, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592826386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592826393, "dur":9897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592836361, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592836401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592836410, "dur":5141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592841594, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592841658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592841669, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592845591, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592845632, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592845638, "dur":6865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592852552, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592853380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592853390, "dur":4637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592858072, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592858250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592858256, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592861493, "dur":769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592862265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592862271, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592864700, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592865084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592865091, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592868476, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592868634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592868643, "dur":4992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592873770, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592873823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592873829, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592876679, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592876727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592876734, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592880662, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592880862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592880871, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1705682592882694, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1705682592882748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592882755, "dur":7156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":3, "ts":1705682592889962, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1705682592890015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592890030, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1705682592893316, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705682592893394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592893403, "dur":7648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1705682592901104, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1705682592901183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592901204, "dur":3731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1705682592904993, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1705682592905046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1705682592905055, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1705682592907012, "dur":36910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592719059, "dur":94, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592719153, "dur":4793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592723949, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1705682592724076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592726772, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1705682592730200, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592730381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592730778, "dur":2643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592733469, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592733672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592733752, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592738050, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592738212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592738274, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1705682592741231, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1705682592741344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592741349, "dur":18021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1705682592759431, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592759491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592759513, "dur":10544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592770144, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592770347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592770359, "dur":10895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592781307, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592781356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592781363, "dur":15196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592796738, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592796815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592796822, "dur":10601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592807484, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592807533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592807541, "dur":4855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592812444, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592812525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592812537, "dur":13702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592826299, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592826407, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592826413, "dur":11381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592837836, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592837889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592837898, "dur":5482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592843433, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592843532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592843549, "dur":5841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592849431, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592849495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592849504, "dur":3815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592853366, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592853417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592853425, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592857564, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592857701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592857707, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592859817, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592859954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592859961, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592863096, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592863841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592863852, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592867931, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592868114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592868120, "dur":4193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592872356, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592872401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592872417, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592875771, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592875820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592875828, "dur":15007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1705682592890899, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1705682592890965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592890971, "dur":2667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1705682592893757, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1705682592894161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592894172, "dur":10073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1705682592904306, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1705682592904361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1705682592904370, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1705682592906829, "dur":37110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592718926, "dur":218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592719144, "dur":4830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592723974, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1705682592724111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592727230, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1705682592730221, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1705682592730391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592731432, "dur":2338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1705682592733813, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705682592734245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592734258, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1705682592736893, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1705682592737075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592738275, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1705682592740185, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592740316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592740863, "dur":9598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592750542, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592750609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592750620, "dur":14521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592765198, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592765329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592765347, "dur":16515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592781910, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592781959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592781969, "dur":8991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592791003, "dur":795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592791804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592791818, "dur":15172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592807038, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592807112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592807123, "dur":8828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592815995, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592816041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592816051, "dur":10378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592826476, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592826598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592826604, "dur":11627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592838450, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592838625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592838632, "dur":6756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592845429, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592845493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592845499, "dur":9313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592854867, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592855209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592855219, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592857929, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592858078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592858086, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592859819, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592859952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592859961, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592864404, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592864476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592864482, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592868631, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592868696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592868701, "dur":6516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592875259, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592875305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592875317, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592878685, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592878739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592878754, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1705682592882443, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1705682592882928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592886023, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1705682592890575, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1705682592890620, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1705682592890627, "dur":16227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":5, "ts":1705682592906908, "dur":37030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592719220, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592719220, "dur":4775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592723995, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1705682592724462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592737742, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1705682592742196, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1705682592742247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592742254, "dur":4380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project.exe" }}
+,{ "pid":12345, "tid":6, "ts":1705682592746707, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592746775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592746869, "dur":10515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592757451, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592757523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592757540, "dur":8521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592766122, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592766191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592766203, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592771318, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592771480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592771493, "dur":18972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592790514, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592790560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592790568, "dur":7429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592798037, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592798114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592798120, "dur":9372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592807537, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592807584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592807591, "dur":13929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592821566, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592821616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592821624, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592826924, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592826972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592826978, "dur":13521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592840566, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592840617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592840629, "dur":8376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592849057, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592849124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592849133, "dur":6250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592855435, "dur":468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592855907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592855917, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592858892, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592859017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592859024, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592862464, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592862506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592862512, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592864910, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592865107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592865113, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592868101, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592868140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592868147, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592872338, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592872385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592872394, "dur":3903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592876344, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592876392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592876400, "dur":3114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592879572, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592879631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592879643, "dur":6759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1705682592886462, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1705682592886509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592886518, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":6, "ts":1705682592890614, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705682592890662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592890668, "dur":8320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705682592899046, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705682592899107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592899123, "dur":5915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1705682592905084, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1705682592905136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1705682592905143, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1705682592907050, "dur":36873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592719371, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592719371, "dur":4622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592723994, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1705682592724419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592737317, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1705682592739941, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1705682592740056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592740065, "dur":2327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1705682592742472, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1705682592742604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592742877, "dur":24025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1705682592766954, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592767013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592767023, "dur":14189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592781259, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592781305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592781313, "dur":16428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592797782, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592797832, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592797841, "dur":10485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592808368, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592808413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592808421, "dur":12808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592821313, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592821426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592821435, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592826394, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592826590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592826598, "dur":11782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592838422, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592838588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592838595, "dur":9898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592848551, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592848601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592848613, "dur":9953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592858609, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592858771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592858778, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592862945, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592862986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592862991, "dur":4678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592867721, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592867880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592867889, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592871244, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592871348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592871366, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592875627, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592875692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592875699, "dur":5664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592881440, "dur":59443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592940889, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1705682592941603, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1705682592943904, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1705682592943906, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592719497, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592719498, "dur":4476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592723975, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1705682592724368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592736399, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1705682592738397, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1705682592738518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592738525, "dur":2331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1705682592740903, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592741027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592741190, "dur":29170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592770413, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592770481, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592770494, "dur":19875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592790441, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592790491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592790504, "dur":5972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592796737, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592796804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592796813, "dur":10171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592807042, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592807858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592807868, "dur":18339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592826282, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592826338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592826350, "dur":11664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592838061, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592838107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592838115, "dur":6926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592845084, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592845129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592845138, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592851911, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592852069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592852076, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592856558, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592856697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592856708, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592858909, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592859050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592859057, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592862523, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592862903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592862910, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592866600, "dur":1324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592867927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592867934, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592872358, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592872435, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592873534, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592876349, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592876395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592876402, "dur":28736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1705682592905228, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1705682592905285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1705682592905292, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/roare/Documents/Unity Builds/Space Rider Build/Starter Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1705682592907321, "dur":36604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1705682592949941, "dur":4370, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1705682592987229, "dur": 1142, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1705682592986712, "dur": 1717, "ph": "X", "name": "Write chrome-trace events", "args": {} },
